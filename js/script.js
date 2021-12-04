@@ -9,7 +9,7 @@
    preloadTl.to(".nobu", {stagger: 0.1, color:"#fff708", duration: 0.1}, ">-0.1");
    preloadTl.to(".preloader",{ zIndex: -5,opacity: 0, duration:0.3, delay: 0.3});
    preloadTl.from(".content-sec h1", {x: 40, opacity: 0, duration: 0.5});
-   preloadTl.from(".content-sec h1 span",{opacity: 0, duration: 0.1, repeat :5});
+   preloadTl.from(".content-sec h1 span",{opacity: 0, duration: 0.1, repeat :2});
    preloadTl.from(".content-sec p", { x: -40, opacity:0, duration: 0.5, delay: 0.2});
    preloadTl.from(".content-sec button", {y: 40, opacity: 0, duration: 0.5});
 
